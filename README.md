@@ -17,7 +17,7 @@ Modify the `export.js` script firstly, there are two variables need to be config
 ./export.js table.json exported-data.csv
 ```
 
-There is a `JSON` file you need to prepared before executed. You can save it from the API: https://scan4.coverity.com/reports/table.json?projectId=<PROJECT_ID>&viewId=<VIEW_ID>
+There is a `JSON` file you need to prepared before executed. You can save it from the API: https://scan4.coverity.com/reports/table.json?projectId=YOUR_PROJECT_ID&viewId=YOUR_VIEW_ID
 
 This API is called when you visit **View Defects** page or change the page number. Open the developer tools, and you won't miss this!
 
